@@ -1,0 +1,96 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-09-19T08:43:08.149Z",
+        "line": 4,
+        "name": "Open the Browser enter URL login page should be displyed,",
+        "description": "  enter user name and password and click on login button check home page is displyed.",
+        "id": "login;open-the-browser-enter-url-login-page-should-be-displyed-",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2087048900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Open the Browser",
+            "match": {
+              "location": "Stepdefination.Login.open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1175453300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "enter testurl",
+            "match": {
+              "location": "Stepdefination.Login.enter_testurl()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9271200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "login page should be displyed",
+            "match": {
+              "location": "Stepdefination.Login.login_page_should_be_displyed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 111962200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "enter user name and password",
+            "match": {
+              "location": "Stepdefination.Login.enter_user_name_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5259461100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "click on login button",
+            "match": {
+              "location": "Stepdefination.Login.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2989600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "home page is should be displyed",
+            "match": {
+              "location": "Stepdefination.Login.home_page_is_should_be_displyed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Feature/Login.feature",
+    "tags": []
+  }
+]
